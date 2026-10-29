@@ -1,30 +1,17 @@
-# Markdown Tutorial
+# Git Tutorial
 
-## 헤더
+```bash
+# 깃 초기화
+git init
 
-```md
-# 헤더 1
-## 헤더 2
-### 헤더 3
-```
+#스테이징 추가
+git add .
+git add 
 
-## 뷸렛 표기
-
-- 뷸렛 1
-- 뷸렛 2
-
-## 숫자 표기
-
-1. 숫자1
-2. 숫자2
-
----
-# 2026-10-27 TIL 무서운 Git/Github
-
-## 오늘 Git 명령어
+### 브랜치 생성 및 스위치
 
 ```sh
-git init
-git config --list
-git config --global user.email "lth2616@naver.com"
+git branch 브랜치명
+git checkout 브랜치명
+git checkout -b 브랜치명
 ```
